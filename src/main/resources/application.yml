@@ -1,5 +1,6 @@
 server:  
-  port: 80  
+  port: 80
+  contextPath: /
   
 # 默认的profile为dev，其他环境通过指定启动参数使用不同的profile，比如：  
 #   测试环境：java -jar my-spring-boot.jar --spring.profiles.active=test  
@@ -15,7 +16,7 @@ spring:
   redis:
     database: 1
     host: 192.168.10.162
-    password: 
+    password: trj123456
     port: 6379
     pool.max-idle: 8
     pool.min-idle: 0
@@ -23,9 +24,9 @@ spring:
     pool.max-wait: -1
     timeout: 60000
   datasource:  
-    url: jdbc:mysql://192.168.10.80:3306/s?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
+    url: jdbc:mysql://192.168.10.80:3306/boshidun?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
     username: root
-    password: 
+    password: tourongjia123!
     driver-class-name: com.mysql.jdbc.Driver
     max-active: 20
     max-wait: 60000
@@ -39,7 +40,7 @@ spring:
   redis:
     database: 1
     host: 192.168.10.162
-    password: 
+    password: trj123456
     port: 6379
     pool.max-idle: 8
     pool.min-idle: 0
@@ -47,9 +48,9 @@ spring:
     pool.max-wait: -1
     timeout: 60000
   datasource:  
-    url: jdbc:mysql://192.168.10.80:3306/s?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
+    url: jdbc:mysql://192.168.10.80:3306/boshidun?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
     username: root
-    password: 
+    password: tourongjia123!
     driver-class-name: com.mysql.jdbc.Driver
     max-active: 20
     max-wait: 60000
@@ -64,7 +65,7 @@ spring:
   redis:
     database: 1
     host: 192.168.10.162
-    password: 
+    password: trj123456
     port: 6379
     pool.max-idle: 8
     pool.min-idle: 0
@@ -72,9 +73,9 @@ spring:
     pool.max-wait: -1
     timeout: 60000
   datasource:  
-    url: jdbc:mysql://192.168.10.80:3306/s?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
+    url: jdbc:mysql://192.168.10.80:3306/boshidun?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
     username: root
-    password: 
+    password: tourongjia123!
     driver-class-name: com.mysql.jdbc.Driver
     max-active: 20
     max-wait: 60000

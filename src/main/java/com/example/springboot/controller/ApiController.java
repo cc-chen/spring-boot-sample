@@ -1,5 +1,7 @@
 package com.example.springboot.controller;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +25,9 @@ public class ApiController {
 	private static final Logger logger = LoggerFactory.getLogger(ApiController.class);
 	
 	@RequestMapping("/index")
-	public String index(){
+	public String index(HttpServletRequest request){
 		logger.info("index request");
+		request.getSession().setAttribute("name", "name");
 		return "Hello spring-boot";
 	}
 	
