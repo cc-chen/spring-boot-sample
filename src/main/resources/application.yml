@@ -23,9 +23,9 @@ spring:
     pool.max-wait=-1
     timeout=60000
   datasource:  
-      url:jdbc:mysql://192.168.10.80:3306/boshidun?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
+      url:jdbc:mysql://192.168.10.80:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
     username=root
-    password=tourongjia123!
+    password=
     driver-class-name=com.mysql.jdbc.Driver
     max-active=20
     max-wait=60000
@@ -47,9 +47,9 @@ spring:
     pool.max-wait=-1
     timeout=60000
   datasource:  
-    url:jdbc:mysql://192.168.10.80:3306/boshidun?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
+    url:jdbc:mysql://192.168.10.80:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
     username=root
-    password=tourongjia123!
+    password=
     driver-class-name=com.mysql.jdbc.Driver
     max-active=20
     max-wait=60000
@@ -72,9 +72,9 @@ spring:
     pool.max-wait=-1
     timeout=60000
   datasource:  
-    url:jdbc:mysql://192.168.10.80:3306/boshidun?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
+    url:jdbc:mysql://192.168.10.80:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useOldAliasMetadataBehavior=true
     username=root
-    password=tourongjia123!
+    password=
     driver-class-name=com.mysql.jdbc.Driver
     max-active=20
     max-wait=60000
