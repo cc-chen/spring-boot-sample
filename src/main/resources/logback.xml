@@ -7,8 +7,7 @@
             <charset>UTF-8</charset>   
         </encoder>    
     </appender>    
-    <appender name="baselog"    
-        class="ch.qos.logback.core.rolling.RollingFileAppender">    
+    <appender name="baselog" class="ch.qos.logback.core.rolling.RollingFileAppender">    
         <File>log/base.log</File>    
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">    
             <fileNamePattern>log/base.log.%d.%i</fileNamePattern>    

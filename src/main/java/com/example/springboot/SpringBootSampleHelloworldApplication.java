@@ -1,8 +1,5 @@
 package com.example.springboot;
 
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.TimeUnit;
-
 import javax.sql.DataSource;
 
 import org.apache.ibatis.session.SqlSessionFactory;
