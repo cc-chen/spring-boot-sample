@@ -1,6 +1,3 @@
-2017-08-17 10:25:06,687 INFO (StartupInfoLogger.java:48)- Starting SpringBootSampleHelloworldApplication on sunny-PC with PID 6828 (D:\workspace\spring-boot-sample\target\classes started by sunny in D:\workspace\spring-boot-sample)
-2017-08-17 10:25:06,689 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2017-08-17 10:25:10,716 INFO (StartupInfoLogger.java:57)- Started SpringBootSampleHelloworldApplication in 4.419 seconds (JVM running for 4.868)
-2017-08-17 10:25:39,154 INFO (StartupInfoLogger.java:48)- Starting SpringBootSampleHelloworldApplication on sunny-PC with PID 5380 (D:\workspace\spring-boot-sample\target\classes started by sunny in D:\workspace\spring-boot-sample)
-2017-08-17 10:25:39,155 INFO (SpringApplication.java:597)- The following profiles are active: dev
-2017-08-17 10:25:42,832 INFO (StartupInfoLogger.java:57)- Started SpringBootSampleHelloworldApplication in 4.037 seconds (JVM running for 4.471)
+2017-12-15 14:53:08,832 INFO (StartupInfoLogger.java:48)- Starting SpringBootSampleHelloworldApplication on DESKTOP-RFEEBNH with PID 7528 (D:\workspace\spring-boot-sample\target\classes started by sunny in D:\workspace\spring-boot-sample)
+2017-12-15 14:53:08,843 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-12-15 14:53:18,116 INFO (StartupInfoLogger.java:57)- Started SpringBootSampleHelloworldApplication in 9.985 seconds (JVM running for 13.438)
